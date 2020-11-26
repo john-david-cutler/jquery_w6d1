@@ -1,67 +1,24 @@
-body, div, html {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    min-height: 100vh;
-    padding: 10px; 
-  }
-  
-.inStock {
+
+#container {
+  width:500px;
+  height:500px;
+  background-color:grey;
   display:flex;
-  border:1px solid black;
-  margin:5px 0 5px 0;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-h1 {
-  font-family:Helvetica;
+.boxContainer {
+  width:100px;
+  height:100px;
+  background-color:black;
+  margin:10px;
 }
 
-.inStock p {
-  width: 33%;
-  font-family:Helvetica;
+.boxContainerToggle {
+  width:100px;
+  height:100px;
+  background-color: #ccc;
+  margin:10px;
+  background-color:
 }
-
-#ProductsLine {
-  width:300px;
-  border-top: 2px solid black;
-}
-
-#storeItemsArray {
-  width:60%;
-}
-
-  #clickMe {
-    background-color: white;
-    display: inline-block;
-    padding:10px;
-    font-family: Helvetica;
-    border-radius: 3px;
-    border:1px solid black;
-  }
-  
-  #clickMe:hover {
-    cursor: pointer;
-  }
-  
-  .darkMode {
-    background-color: black;
-    color:white;
-  }
-
-  .darkMode #clickMe{
-    color:white;
-    background-color:black;
-    border:1px solid white;
-  }
-
-  .darkMode .inStock {
-    border:1px solid white;
-  }
-
-  .darkMode #ProductsLine {
-    width:300px;
-    border-top: 2px solid white;
-  }
-  
